@@ -6,6 +6,7 @@ call plug#begin('~/AppData/Local/nvim/plugged')
 
 "@plugin-workspace
 Plug 'preservim/nerdtree'
+Plug 'lambdalisue/suda.vim'
 Plug 'morhetz/gruvbox'
 Plug 'itchyny/lightline.vim'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
