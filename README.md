@@ -9,5 +9,5 @@ My neovim configuration
 
 # Install
 ```
-curl https://raw.githubusercontent.com/dung-dao/neovim/main/install.sh | bash
+curl https://raw.githubusercontent.com/dung-dao/vim-config/main/install.sh | bash
 ```
