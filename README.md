@@ -1,7 +1,13 @@
-# neovim
+# vim-config
 My neovim configuration
+
+# Functions
+- Syntax highlighting
+- Tree explorer
+- Statusbar
+- Sudo write
 
 # Install
 ```
-wget -O - https://raw.githubusercontent.com/dung-dao/neovim/main/install.sh | bash
+curl https://raw.githubusercontent.com/dung-dao/neovim/main/install.sh | bash
 ```
