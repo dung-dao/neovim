@@ -1,5 +1,5 @@
 # vim-config
-My neovim configuration
+My vim configuration
 
 # Functions
 - Syntax highlighting
