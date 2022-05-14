@@ -14,6 +14,7 @@ Plug 'preservim/nerdtree'
 Plug 'lambdalisue/suda.vim'
 Plug 'morhetz/gruvbox'
 Plug 'itchyny/lightline.vim'
+Plug 'jszakmeister/vim-togglecursor'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'frazrepo/vim-rainbow'
 Plug 'preservim/nerdcommenter'
@@ -59,6 +60,10 @@ set shiftwidth=2
 set tabstop=2
 set softtabstop=2
 
+set ttimeout
+set ttimeoutlen=0
+set ttyfast
+
 "Theme
 set termguicolors
 colorscheme gruvbox
@@ -76,6 +81,9 @@ let g:NERDTreeExactMatchHighlightFullName = 1
 let g:NERDTreePatternMatchHighlightFullName = 1
 let g:NERDTreeHighlightFolders = 1 
 let g:NERDTreeHighlightFoldersFullName = 1
+
+"Gruvebox
+let g:gruvbox_contrast_dark = 'hard'
 
 "Rainbow
 let g:rainbow_active = 1
