@@ -106,6 +106,8 @@ let g:closetag_shortcut = '>'
 
 "@Keybinding
 nnoremap <silent> <Tab> <C-w>w
+nnoremap <silent> <C-j> <C-d>
+nnoremap <silent> <C-k> <C-u>
 nnoremap <silent> <nowait> ;; <ESC>G
 map <silent> ,, <ESC>
 :imap <silent> ,, <Esc>
@@ -113,7 +115,7 @@ map <silent> ,, <ESC>
 map <Enter> o<ESC>
 
 "FZF
-silent! nmap <leader>f :GFiles<CR>
+silent! nmap <leader>f :Files<CR>
 
 nnoremap <nowait> <leader>cc :Commentary<CR>
 map <silent> <C-n> :NERDTreeToggle<CR>
