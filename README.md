@@ -4,7 +4,7 @@ My neovim configuration
 # Functions
 - Syntax highlighting
 - Tree explorer
-- Statusbar
+- Fuzzy finder
 - Sudo write
 
 # Install
